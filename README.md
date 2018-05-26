@@ -21,9 +21,8 @@ import time
 
 inago = inago.InagoFlyer()
 
-while True:
-  inago.VolumeGet()
-  print(inago.BuyVolume)
-  print(inago.SellVolume)
-  time.sleep(1)
+for vol in inago.VolumeGet():
+		print(vol)
+    # >>>> {"Sell":54.2, "Buy": 150.1, "Merit": "Buy"}
+		time.sleep(1)
 ```
