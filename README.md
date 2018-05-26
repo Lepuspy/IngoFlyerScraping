@@ -22,7 +22,7 @@ import time
 inago = inago.InagoFlyer()
 
 for vol in inago.VolumeGet():
-		print(vol)
-    # >>>> {"Sell":54.2, "Buy": 150.1, "Merit": "Buy"}
-		time.sleep(1)
+	print(vol)
+	# >>>> {"Sell":54.2, "Buy": 150.1, "Merit": "Buy"}
+	time.sleep(1)
 ```
